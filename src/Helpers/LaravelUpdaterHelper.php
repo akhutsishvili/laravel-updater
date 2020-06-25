@@ -40,8 +40,9 @@ class LaravelUpdaterHelper
 
     public static function sendToSlack($message)
     {
+        $name = config('app.name');
         return Http::post(config('laravel-updater.slack_url'), [
-            'text' => $message
+            'text' => "[{$name}] {$message}"
         ]);
     }
 }
