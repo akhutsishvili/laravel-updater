@@ -30,6 +30,11 @@ return [
     'show_info' => true,
 
     /**
+     * Token to watch for the updater key
+     */
+    'header_name' => 'X-Gitlab-Token',
+
+    /**
      * The updater key
      */
     'updater_key' => env('UPDATER_KEY', '')
