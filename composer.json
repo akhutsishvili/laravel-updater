@@ -1,0 +1,14 @@
+{
+    "name": "demafelix/laravel-updater",
+    "description": "A simple webhook receiver for git push events.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Liam Demafelix",
+            "email": "hey@liam.ph"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
