@@ -4,6 +4,8 @@ A simple endpoint and middleware combo package for receiving Git push events.
 
 > Note that there are better ways to deploy, especially in production, using CI/CD. This is a stopgap solution for quick/minor projects. Use with caution.
 
+[bc1quhgxucxrsz6k50yhylv4zgs6vkxe5gplmnwu06](bitcoin:bc1quhgxucxrsz6k50yhylv4zgs6vkxe5gplmnwu06)
+
 # Requirements
 
 * PHP 7.2 and above
